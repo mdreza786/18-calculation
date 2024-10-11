@@ -1,0 +1,14 @@
+ #include <stdio.h>
+void value(float num);
+int main (){ 
+    float num=100;
+    value(num);
+    printf("%f",num);
+
+
+}
+void value(float num){
+    num = num +(num*0.18);
+    printf("%f",num);
+}
+  
